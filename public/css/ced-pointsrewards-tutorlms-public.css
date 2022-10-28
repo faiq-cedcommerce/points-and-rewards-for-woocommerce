@@ -1,0 +1,318 @@
+.ced_tutorlms_heading {
+    margin-bottom: 10px!important;
+    padding: 0
+}
+.ced_tutorlms_heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+.ced_tutorlms_heading_para {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.ced_tutorlms_wrapper_button .google {
+    line-height: 1px
+}
+
+
+.ced_tutorlms_wrapper_button .twitter-share-button {
+    background: #39f none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 13px;
+    text-decoration: none;
+    vertical-align: text-bottom;
+    display: inline-block;
+}
+
+.ced_tutorlms_wrapper_button .fb-share-button {
+    background: #1877f2 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 12px;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.ced_tutorlms_btn .twitter-share-button>img {
+    display: inline-block;
+    margin-right: 4px;
+    margin-top: 3px;
+    vertical-align: top;
+    width: 19px
+}
+
+.ced_tutorlms_wrapper_button .google {
+    display: inline-block;
+    vertical-align: top
+}
+
+.ced_tutorlms_wrapper_button .ced_tutorlms_common_class {
+    display: inline-block;
+    margin: 0 7px
+}
+
+.ced_tutorlms_wrapper_button .ced_tutorlms_mail_button {
+    background-color: #575757;
+    border-radius: 3px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    width: 77px;
+    box-shadow: none;
+}
+
+.ced_tutorlms_wrapper_button .ced_tutorlms_mail_button img {
+    box-shadow: none;
+    display: inline-block;
+    margin: 0 auto 0;
+    width: 18px;
+}
+
+.ced_tutorlms_wrapper_button .ced_tutorlms_mail_button .ced_tutorlms_common_class {
+    margin-left: 12px
+}
+
+
+
+.ced_tutorlms_refrral_code_copy::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+.ced_tutorlms_btn_copy {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    padding: 6px
+}
+
+#ced_tutorlms_copy {
+    float: left;
+    width: calc(100% - 44px)
+}
+
+#ced_tutorlms_copy code {
+    background: #ebe9eb none repeat scroll 0 0;
+    display: block;
+    padding: 0 3px;
+    word-break: break-all
+}
+
+.ced_tutorlms_btn_copy:active,
+.ced_tutorlms_btn_copy:focus,
+.ced_tutorlms_btn_copy:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0
+}
+
+.ced_tutorlms_account_wrapper {
+    margin-bottom: 25px;
+}
+
+.ced_tutorlms_account_wrapper .ced_tutorlms_tooltip .ced_tutorlms_tooltiptext {
+    background-color: #000;
+    border-radius: 6px;
+    bottom: -30px;
+    color: #fff;
+    font-size: 11px;
+    left: -19px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    width: 80px;
+    z-index: 1
+}
+
+.ced_tutorlms_account_wrapper .ced_tutorlms_tooltip .ced_tutorlms_tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #000 transparent;
+}
+
+.ced_tutorlms_tooltip:hover .ced_tutorlms_tooltiptext {
+    visibility: visible
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0
+}
+
+
+.ced_tutorlms_each_section .ced_tutorlms_btn_copy {
+    border: medium none;
+    display: inline-block;
+    opacity: 1;
+    width: 44px
+}
+
+.ced_tutorlms_view_log_notice {
+    background-color: #e3e3e3;
+    color: #444;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+    cursor: pointer;
+    line-height: 1.5
+}
+
+.ced_tutorlms_slide_toggle {
+    margin-bottom: 15px
+}
+
+.ced_tutorlms_view_log_notice.ced_tutorlms_common_slider .ced_tutorlms_open_toggle {
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer
+}
+
+.ced_tutorlms_view_log_notice.ced_tutorlms_common_slider .ced_tutorlms_open_toggle:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 15px;
+    background: #444
+}
+
+.ced_tutorlms_view_log_notice.ced_tutorlms_common_slider .ced_tutorlms_open_toggle:before {
+    background: #444;
+    content: "";
+    height: 15px;
+    left: 7px;
+    position: absolute;
+    top: -6px;
+    width: 2px;
+}
+
+.ced_tutorlms_view_log_notice.ced_tutorlms_common_slider .ced_tutorlms_plus_icon:before {
+    content:none;
+}
+.form-table {
+    font-size: 14px;
+    border-collapse: collapse;
+    margin-top: 0.5em;
+    width: 100%;
+    clear: both;
+}
+.form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 0;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+
+
+.ced_tutorlms_whatsapp_share {
+    background: #25d366;
+    border-radius: 3px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    width: 77px;
+    box-shadow: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0 7px;
+    align-items: center;
+}
+
+.ced_tutorlms_whatsapp_share img {
+    max-width: 16px;
+    display: inline-block;
+    margin: 0px auto 0;
+    width: 18px;
+}
+
+/*Cart Points*/
+.ced_tutorlms_apply_custom_points {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    clear: both
+}
+.shop_table.cart .ced_tutorlms_apply_custom_points #ced_tutorlms_cart_points {
+    width: 170px;
+    border-radius: 4px;
+    height: 40px!important;
+    padding: 5px 12px;
+    background-color: #f2f2f2;
+    box-shadow: none!important;
+    border: 0;
+    font-size: 18px;
+    vertical-align: top;
+    margin: 0;
+    max-width: 170px;
+    margin-right: 5px
+}
+
+.shop_table.cart .ced_tutorlms_apply_custom_points #ced_tutorlms_cart_points {
+    width: 100%!important
+}
+.shop_table.cart .coupon .input-text {
+    width: auto;
+    max-width: 170px
+}
+
+
+@media screen and (max-width:376px) {
+    .custom_point_checkout #ced_tutorlms_cart_points_apply {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%
+    }
+    .custom_point_checkout #ced_tutorlms_cart_points {
+        width: 100%!important
+    }
+}
+
+#ced_tutorlms_cart_points_apply ~ p {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: left
+}
+.ced_tutorlms_checkout_points_class::after {
+
+    display: block;
+    clear: both;
+    content: '';
+
+}
+.custom_point_checkout #ced_tutorlms_cart_points {
+    padding: 10px 10px;
+    width: 135px;
+    float: left
+}
+
+#ced_tutorlms_points_apply~p {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: left;
+}
+.custom_point_checkout #ced_tutorlms_cart_points_apply {
+    float: left;
+    margin-left: 10px;
+}

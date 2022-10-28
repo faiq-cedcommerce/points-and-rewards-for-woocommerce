@@ -22,31 +22,31 @@ if ( ! wc_coupons_enabled() ) { // @codingStandardsIgnoreLine.
 }
 ?>
 <div class="woocommerce-form-coupon-toggle">
-	<?php wc_print_notice( apply_filters( 'woocommerce_checkout_coupon_message', __( 'Have a coupon?', 'points-and-rewards-for-woocommerce' ) . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code', 'points-and-rewards-for-woocommerce' ) . '</a>' ), 'notice' ); ?>
+	<?php wc_print_notice( apply_filters( 'woocommerce_checkout_coupon_message', __( 'Have a coupon?', 'ced-pointsrewards-tutorlms' ) . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code', 'ced-pointsrewards-tutorlms' ) . '</a>' ), 'notice' ); ?>
 </div>
 <!-- /*WPS CUSTOM CODE*/ -->
-<div class="woocommerce-error wps_rwpr_settings_display_none_notice" id="wps_wpr_cart_points_notice" >
+<div class="woocommerce-error ced_tutorlms_settings_display_none_notice" id="ced_tutorlms_cart_points_notice" >
 	
 </div>
-<div class="woocommerce-message wps_rwpr_settings_display_none_notice" id="wps_wpr_cart_points_success" >
+<div class="woocommerce-message ced_tutorlms_settings_display_none_notice" id="ced_tutorlms_cart_points_success" >
 	
 </div>
 <!-- /*END OF WPS CUSTOM CODE*/ -->
 <form class="checkout_coupon woocommerce-form-coupon" method="post">
 
-	<p><?php esc_html_e( 'If you have a coupon code, please apply it below.', 'points-and-rewards-for-woocommerce' ); ?></p>
+	<p><?php esc_html_e( 'If you have a coupon code, please apply it below.', 'ced-pointsrewards-tutorlms' ); ?></p>
 
 	<p class="form-row form-row-first">
-		<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'Coupon code', 'points-and-rewards-for-woocommerce' ); ?>" id="coupon_code" value="" />
+		<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'Coupon code', 'ced-pointsrewards-tutorlms' ); ?>" id="coupon_code" value="" />
 	</p>
 
 	<p class="form-row form-row-last">
-		<button type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'points-and-rewards-for-woocommerce' ); ?>"><?php esc_html_e( 'Apply coupon', 'points-and-rewards-for-woocommerce' ); ?></button>
+		<button type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'ced-pointsrewards-tutorlms' ); ?>"><?php esc_html_e( 'Apply coupon', 'ced-pointsrewards-tutorlms' ); ?></button>
 	</p>
 
 	<div class="clear"></div>
 </form>
 <?php
-  $public_obj = new Points_Rewards_For_WooCommerce_Public( 'points-rewads-for-woocommerce', '1.0.0' );
-  $public_obj->wps_wpr_display_apply_points_checkout();
+  $public_obj = new Ced_Pointsrewards_Tutorlms_Public( 'ced-pointsrewards-tutorlms', '1.0.0' );
+  $public_obj->ced_tutorlms_display_apply_points_checkout();
 ?>

@@ -1,0 +1,879 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+ #ced_tutorlms_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.dashicons:before {
+	font-size:18px;
+}
+.ced_go_pro_btn {
+    /*background: #eb0606!important;*/
+}
+.ced_tutorlms_general_content label{
+	margin-right:17px;
+}
+.ced_tutorlms_object_purchase p {
+  background-color: #ef5350;
+  color: #fff;
+  padding: 7px 10px;
+  margin-top: 10px !important;
+  border-radius: 4px;
+  display: block;
+  font-size: 15px !important;
+}
+#ced_tutorlms_loader img {
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.ced_tutorlms_save_changes_table {
+    background: #3e64de!important;
+    border-color: #3e64de!important;
+    border-radius: 2px 8px 2px 8px!important;
+}
+.ced_tutorlms_save_changes_table:hover {
+    background: #fff!important;
+    border-color: #3e64de!important;
+    color: #3e64de!important;
+}
+.wp-swings_page_ced_tutor_lms_points_rewards>tbody>:nth-child(odd){
+	background:#f6f7f736!important;
+}
+
+
+#ced_tutorlms_points_table_heading {
+    background: #fff;
+    padding: 9px 12px;
+    color: #3e64de;
+    border-radius: 2px 10px 2px 10px;
+    box-shadow: 0px 0px 31px -2px #ddd;
+}
+
+.ced_tutorlms_wrapper_div {
+    width: 100%;
+    margin: auto;
+    background: #f0f0f1;
+    padding: 4px 14px;
+}
+
+#ced_tutorlms_pr_setting_wrapper * {
+ box-sizing: border-box;
+}
+#ced_tutorlms_pr_setting_wrapper{
+  font-family: 'Lato', sans-serif;
+}
+.ced_tutorlms_pr_settings_display_none{
+  display: none;
+}
+.ced_tutorlms_pr_width_seventyfive {
+  width:75%;
+}
+.ced_tutorlms_pr_width_hundred {
+  width:100%;
+}
+.ced_tutorlms_pr_width_ten {
+  width:10%;
+}
+.ced_tutorlms_width_height{
+  height: 100px;
+  width: 100px;
+}
+.wps_points_log_list_table_line_height{
+  line-height: 2
+}
+.button-primary.woocommerce-save-button.ced_tutorlms_save_changes {
+  background: #3e64de;
+    padding: 2px 16px;
+    height: auto;
+    text-shadow: none;
+    box-shadow: none;
+    border-color: #3e64de;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #3e64de;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 2px 10px 2px 10px;
+}
+.button-primary.woocommerce-save-button.ced_tutorlms_save_changes:hover,
+.button-primary.woocommerce-save-button.ced_tutorlms_save_changes:focus{
+  background-color: #fff;
+  color: #3e64de;
+  border-color: #fff;
+  box-shadow: 0px 6px 30px 5px #ddd;
+  
+}
+#ced_tutorlms_pr_setting_wrapper input[type="checkbox"], #ced_tutorlms_pr_setting_wrapper input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  /*z-index: 111;*/
+}
+
+#search-submit, #doaction, #doaction2 {
+    background: #3e64de;
+    color: #fff;
+    border: #3e64de;
+}
+
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_pro_version_wrapper .ced_tutorlms_pr_about_pro_version {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 18px;
+  text-align: left;
+  background-color: #f4f4f4;
+  border-left: 4px solid #ef5350;
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.12);
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_pro_version_wrapper .ced_tutorlms_pr_get_it_button:hover{
+  color: #ffffff;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_pro_version_wrapper .ced_tutorlms_pr_get_it_now {
+  text-align: center;
+  margin-top: 20px;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_general_setting tr:nth-child(2n+1) {
+  background-color: #efefef;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_general_setting tr label{
+  padding-left: 15px;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_product_setting tr label{
+  padding-left: 15px;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_product_setting tr:nth-child(2n+1) {
+  background-color: #efefef;
+}
+#ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table th, #ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table td {
+  padding: 10px !important;
+}
+#ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table th, #ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table td {
+  padding: 10px !important;
+}
+#ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table tr:nth-child(2n) {
+  background-color: #efefef;
+}
+/*Admin Settings*/
+#ced_tutorlms_pr_setting_wrapper{
+  font-family: 'Lato', sans-serif;
+}
+.ced_tutorlms_pr_table_wrapper input[type="text"], .ced_tutorlms_pr_table_wrapper input[type="email"], .ced_tutorlms_pr_table_wrapper input[type="number"] {
+  border: 1px solid #dddddd;
+  padding: 10px !important;
+}
+.ced_tutorlms_pr_header {
+  display: flex;
+    background-color: #3e64de;
+    color: #ffffff;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 7px 10px 4px #ddd;
+    margin-bottom: 49px;
+    border-radius: 2px 15px 2px 15px;
+}
+.ced_tutorlms_pr_header_content_left {
+  align-items: center;
+  display: flex;
+  flex: 0 0 45%;
+  padding: 12px 12px;
+}
+.ced_tutorlms_pr_header_content_right {
+  flex: 0 0 55%;
+  padding: 12px 12px;
+}
+.ced_tutorlms_pr_header_content_left .ced_tutorlms_pr_setting_title {
+  padding: 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+.ced_tutorlms_pr_header_content_left .notice.notice-success.is-dismissible {
+  color: #000;
+  margin: 0 0 0 10px;
+}
+.ced_tutorlms_pr_header_content_right ul {
+  margin: 0;
+  text-align: right;
+}
+.ced_tutorlms_pr_header_content_right ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.ced_tutorlms_pr_header_content_right ul li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+.ced_tutorlms_pr_header_content_right ul li.ced_tutorlms_pr_header_menu_button a {
+  display: inline-block;
+  background-color: #ef5350;
+  font-weight: 600;
+  padding: 7px 20px;
+  border-radius: 4px;
+  color: #ffffff !important;
+}
+#ced_tutorlms_pr_setting_wrapper .wps_wgc_pro_version_wrapper .wps_wgc_about_pro_version {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 18px;
+  text-align: left;
+  background-color: #f4f4f4;
+  border-left: 4px solid #ef5350;
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.12);
+}
+.wps_wgc_pro_version_image_section img {
+  border: 1px solid #bababa;
+  width: 100%;
+}
+#ced_tutorlms_pr_setting_wrapper .wps_wgc_pro_version_wrapper .wps_wgc_get_it_button {
+  background-color: #ef5350;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+#ced_tutorlms_pr_setting_wrapper .wps_wgc_pro_version_wrapper .wps_wgc_get_it_button:hover{
+  color: #fff;
+}
+#ced_tutorlms_pr_setting_wrapper .wps_wgc_pro_version_wrapper .wps_wgc_get_it_now {
+  text-align: center;
+  margin-top: 20px;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_general_setting tr:nth-child(2n+1) {
+  background-color: #efefef;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_general_setting tr label{
+  padding-left: 15px;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_product_setting tr label{
+  padding-left: 15px;
+}
+#ced_tutorlms_pr_setting_wrapper .ced_tutorlms_pr_table_wrapper .ced_tutorlms_pr_product_setting tr:nth-child(2n+1) {
+  background-color: #efefef;
+}
+.ced_tutorlms_pr_other_setting_remove_logo_span {
+  background-color: #ef5350;
+  border-radius: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  height: 25px;
+  line-height: 24px;
+  text-align: center;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.ced_tutorlms_pr_other_setting_remove_logo {
+  display: inline-block;
+  position: relative;
+}
+#ced_tutorlms_pr_other_setting_remove_logo{
+  display:none;
+  padding: 14px 24px;
+}
+#ced_tutorlms_pr_mail_instruction .hndle {
+  font-size: 14px;
+  padding: 8px 12px;
+  margin: 0;
+  line-height: 1.4;
+}
+#poststuff .inside {
+  margin: 6px 0 0 0;
+}
+.postbox table.form-table {
+  margin-bottom: 0;
+}
+#ced_tutorlms_pr_mail_instruction .inside .form-table tr th {
+  padding: 5px 0px !important;
+}
+.form-table th {
+  vertical-align: top;
+  text-align: left;
+  padding: 20px 10px 20px 0;
+  width: 200px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+#ced_tutorlms_pr_other_setting_giftcard_html {
+  width: 100%;
+}
+#ced_tutorlms_pr_general_setting_giftcard_prefix {
+  width: 400px !important;
+}
+.ced_tutorlms_pr_overview_heading {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left;
+}
+.ced_tutorlms_pr_table_wrapper.ced_tutorlms_pr_overview-wrapper p {
+  font-size: 16px;
+}
+.ced_tutorlms_pr_video_wrapper iframe {
+  width: 100%;
+}
+#ced_tutorlms_pr_mail_instruction .inside {
+  padding: 0 !important;
+}
+#ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table th, #ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table td {
+  padding: 10px !important;
+}
+#ced_tutorlms_pr_setting_wrapper #ced_tutorlms_pr_mail_instruction .inside .form-table tr:nth-child(2n) {
+  background-color: #efefef;
+}
+#ced_tutorlms_pr_other_setting_upload_image {
+  vertical-align: middle;
+}
+.ced_tutorlms_pr_body_template {
+  /*background: #ffffff;*/
+    display: flex;
+    width: 97%;
+    margin: auto;
+    border-radius: 2px;
+    gap: 26px;
+    justify-content: space-evenly;
+}
+.ced_tutorlms_pr_mobile_nav {
+  background: #214460;
+  color: #fff;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
+.ced_tutorlms_pr_mobile_nav .dashicons {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+}
+.ced_tutorlms_pr_navigator_template {
+  display: block;
+  flex: 0 0 20%;
+  background:#fff;
+}
+.ced_tutorlms_pr_content_template {
+  box-shadow: -2px 0px 5px -1px rgba(0,0,0,.05);
+  color: #555d66;
+  font-size: 14px;
+  flex: 0 0 80%;
+  padding: 10px 30px 10px 40px;
+  position: relative;
+  line-height: 28px;
+  background:#fff;
+}
+.ced_tutorlms_pr_tabs {
+  position: relative;
+}
+.nav-tab {
+  border:1px solid transparent;
+}
+.ced_tutorlms_pr_tabs .nav-tab-active, .ced_tutorlms_pr_tabs .nav-tab-active:focus, .ced_tutorlms_pr_tabs .nav-tab-active:focus:active, .ced_tutorlms_pr_tabs .nav-tab-active:hover {
+  background: #3e64de;
+  color: #fff !important;
+  display: block;
+}
+.wps_gw_nav_tab {
+    color: #2b5d89;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 0;
+    float: none;
+    padding: 10px 10px;
+    background: #fff;
+    margin: 11px;
+    border-radius: 2px 10px 2px 10px;
+    box-shadow: 3px 0px 12px 1px #ddd;
+}
+.wps_gw_nav_tab a{
+	/*background:#ddd;*/
+	
+}
+.ced_tutorlms_pr_tabs .nav-tab-active:after {
+  right: 0;
+  border: 8px solid transparent;
+  content: none;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #fff;
+  top: 50%;
+  margin-top: -8px;
+  z-index: 2;
+}
+.wps_gw_nav_tab:hover {
+  color: #2b5d89;
+}
+.wps_gw_nav_tab:focus, .wps_gw_nav_tab:hover {
+  box-shadow: none;
+}
+.ced_tutorlms_general_content, .ced_tutorlms_general_label {
+  padding: 13px 0;
+}
+.ced_tutorlms_general_content {
+  width: calc(100% - 240px);
+  margin-left: 20px;
+}
+.ced_tutorlms_general_label {
+  width: 210px;
+  font-weight: 600;
+}
+.ced_tutorlms_general_label label {
+    width: 90%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0px 11px;
+    font-weight: 500;
+}
+.ced_tutorlms_general_row_wrap {
+  box-shadow: 2px 3px 20px rgba(0,0,0,0.2);
+  margin: 20px 0 40px 0;
+}
+.ced_tutorlms_general_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  align-items: center;
+}
+.ced_tutorlms_general_row:nth-child(2n+1) {
+  /*background-color: #eeeeee7a;*/
+}
+.ced_tutorlms_general_row:hover{
+  /*background-color: #ffefff;*/
+}
+.ced_tutorlms_general_sign_title {
+    width: 100%;
+    display: block;
+    padding: 6px 20px;
+    background-color: #fff;
+    display: block;
+    color: #3e64de;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 2px 10px 2px 10px;
+    box-shadow: 0px 0px 13px -2px #ddd;
+}
+.ced_tutorlms_general_pro {
+  display: inline-block;
+  background-color: #e9e940;
+  color: #000000;
+  padding: 0 4px;
+  border-radius: 6px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/*Added css for get pro link*/
+.ced_tutorlms_pr_header_content_right ul li.ced_tutorlms_get_pro a {
+    display: inline-block;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 7px 20px;
+    border-radius: 2px 10px 2px 10px;
+    color: #3e64de!important;
+}
+/*overview settings*/
+.ced_tutorlms_overview_heading {
+	font-size: 28px;
+	font-weight: 400;
+	text-align: left;
+}
+.ced_tutorlms_overview_content p {
+  font-size: 16px;
+}
+.ced_tutorlms_video_wrapper iframe {
+  width: 100%;
+}
+.ced_tutorlms_object_purchase p a {
+  color: #131113 !important;
+}
+
+/*member css*/
+.ced_tutorlms_membership_setting,.ced_tutorlms_general_setting.mwp_wpr_settings{
+  border: 1px solid #cccccc;
+}
+.ced_tutorlms_membership_setting tr:nth-child(2n+1),.ced_tutorlms_general_setting.mwp_wpr_settings tr:nth-child(2n+1) {
+  background-color: #f4f4f4;
+}
+.ced_tutorlms_membership_setting tr:hover,.ced_tutorlms_general_setting.mwp_wpr_settings tr:hover {
+  background-color: #ffefff;
+}
+.ced_tutorlms_membership_setting th, .ced_tutorlms_membership_setting td,
+.ced_tutorlms_general_setting.mwp_wpr_settings th, .ced_tutorlms_general_setting.mwp_wpr_settings td {
+  padding: 10px !important;
+}
+.ced_tutorlms_membership_setting th,.ced_tutorlms_general_setting.mwp_wpr_settings > th {
+  width: 170px;
+}
+.ced_tutorlms_membership_setting .ced_tutorlms_repeatable_section th{
+  width: 100px;
+}
+.ced_tutorlms_repeatable_section td label {
+  display: inline-block;
+}
+#ced_tutorlms_membership_level_name_0 {
+  margin-right: 5px;
+}
+.ced_tutorlms_repeatable_section , .ced_tutorlms_general_setting.mwp_wpr_settings table{
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.ced_tutorlms_repeatable_section td, .ced_tutorlms_repeatable_section th {
+  vertical-align: middle;
+}
+.button-primary.woocommerce-save-button.ced_tutorlms_repeat_button,
+.button-primary.woocommerce-save-button.ced_tutorlms_remove_button,
+#ced_tutorlms_add_more.ced_tutorlms_add_more.button,
+.ced_tutorlms_remove_thankyouorder.button {
+  background-color: #4F3154;
+  text-shadow: none;
+  border: 2px solid #4F3154;
+  height: auto;
+  padding: 2px 10px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 0;
+  box-shadow: none;
+  color: #ffffff;
+}
+.button-primary.woocommerce-save-button.ced_tutorlms_repeat_button:hover,
+.button-primary.woocommerce-save-button.ced_tutorlms_repeat_button:focus,
+#ced_tutorlms_add_more.ced_tutorlms_add_more.button:hover,#ced_tutorlms_add_more.ced_tutorlms_add_more.button:focus,
+.ced_tutorlms_remove_thankyouorder.button:hover,.ced_tutorlms_remove_thankyouorder.button:focus{
+  background-color: #ef5350;
+  color: #ffffff;
+  border-color: #ef5350;
+}
+.ced_tutorlms_membership_log {
+  float: right;
+}
+.ced_tutorlms_general_setting.mwp_wpr_settings table input[type="text"] {
+  width: 100% !important;
+  padding: 8px !important;
+  border-radius: 4px;
+}
+.ced_tutorlms_general_setting.mwp_wpr_settings table th {
+  width: auto;
+}
+/*end member css*/
+/*====================================
+=            points table            =
+====================================*/
+.ced_tutorlms_view_log_notice.ced_tutorlms_common_slider {
+    background-color: #3e64de;
+    padding: 7px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    color: #ffffff;
+    border-radius:2px 10px 2px 10px;
+}
+.ced_tutorlms_view_log_notice.ced_tutorlms_common_slider::after {
+  content: "\f460";
+  font-family: 'dashicons';
+  position: absolute;
+  right: 10px;
+  top: 55%;
+  transform: translateY(-48%);
+  display: inline-block;
+}
+.ced_tutorlms_view_log_notice.ced_tutorlms_common_slider.active::after {
+  content: "\f132";
+}
+/*=====  End of points table  ======*/
+
+/*New-css*/
+a.wps_gw_nav_tab.nav-tab {
+	white-space: unset;
+}
+/*.woocommerce table.form-table .ced_tutorlms_repeatable_section .select2-container {
+	min-width: auto !important;
+	width: auto !important;
+}*/
+
+@media screen and (max-width: 675px) {
+  .ced_tutorlms_pr_header_content_left,
+  .ced_tutorlms_pr_header_content_right{
+	flex: 0 0 100%;
+  }
+  .ced_tutorlms_pr_header_content_left {
+	padding-bottom: 0;
+  }
+  .ced_tutorlms_pr_header_content_right ul,.ced_tutorlms_pr_header_content_left .ced_tutorlms_pr_setting_title {
+	text-align: center;
+  }
+  .ced_tutorlms_pr_header_content_left .ced_tutorlms_pr_setting_title{
+	width: 100%;
+  }
+  .ced_tutorlms_general_content,.ced_tutorlms_general_label{
+	width: 100%;
+	margin-left: 0;
+  }
+  .ced_tutorlms_general_label label{
+	width: 100%;
+  }
+}
+@media only screen and (max-width: 782px){
+  .ced_tutorlms_pr_mobile_nav {
+	display: block;
+	background-color: #1e2a79;
+  }
+  .ced_tutorlms_pr_navigator_template, .ced_tutorlms_pr_content_template{
+	flex: 0 0 100%;
+  }
+  .ced_tutorlms_pr_content_template {
+	box-shadow: none;
+	margin-top: 5px;
+	padding: 10px 15px 40px;
+  }
+  .ced_tutorlms_pr_header_content_left div {
+	margin: 0 auto;
+  }
+  .ced_tutorlms_pr_body_template
+  {
+	display: block;
+  }
+  .ced_tutorlms_pr_navigator_template {
+	 display: none;
+  }
+  .ced_tutorlms_pr_navigator_template.open-btn
+  {
+	display: block !important;
+  }
+  #ced_tutorlms_pr_setting_wrapper input[type="checkbox"]:before
+  {
+	font: normal 22px/1 dashicons;
+  }
+
+  textarea{
+	width:100%;
+  }
+  .ced_tutorlms_membership_setting .ced_tutorlms_repeatable_section th {
+	width: 100%;
+  }
+  #ced_tutorlms_membership_expiration_days_0 {
+	margin-top: 10px;
+  }
+  input[type="checkbox"]:checked::before {
+	margin: -9px;
+	width: 20px;
+	height: 22px;
+	left: 5px !important;
+	position: absolute;
+	top: 5px;
+  }
+  .ced_tutorlms_pr_content_template .search-box {
+	position: static;
+  }
+}
+.ced_tutorlms_pr_header_content_right ul li:first-child .dashicons.dashicons-phone {
+  transform: rotate(90deg);
+}
+/*Email notification*/
+.ced_tutorlms_email_wrapper_text
+{
+  color: white;
+  background-color: #7f527d ;
+}
+.ced_tutorlms_email_wrapper_text h2
+{
+  color: white;
+  text-align: center!important;
+  }*/
+  #ced_tutorlms_settings_wrapper #mainform .ced_tutorlms_email_wrapper .ced_tutorlms_email_wrapper_text h2 {
+   text-align: left!important;
+ }
+.ced_tutorlms_common_table thead th {
+	padding: 0px 10px;
+}
+.form-table.mwp_wpr_settings.ced_tutorlms_points_view_total {
+	background-color: #3e64de;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    border-radius: 2px 10px 2px 10px;
+}
+
+/*chat now on skype*/
+#wps-wpr-skype-link img {
+margin-right: 5px;
+vertical-align: text-bottom;
+}
+#wps-wpr-skype-link {
+color: #00AAF2;
+background: #fff;
+border-radius: 4px;
+display: inline-block;
+padding: 7px 8px;
+font-weight: bold;
+}
+
+
+/*notification bar*/
+
+.notice-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.notice-image img {
+    max-width: 50px;
+}
+img {
+    border: none;
+}
+.notice-content {
+    margin-left: 15px;
+}
+div#dismiss_notice {
+    margin-left: 2px;
+    margin-right: 20px;
+}
+/*New CSS*/
+.ced_tutorlms_membership_select_all_category_common{
+  margin-left: 25px !important;
+}
+.ced_tutorlms_contact_doc_text{
+  text-transform: uppercase;
+}
+.ced_tutorlms_repeat_button_wrap{
+  text-align: right;
+}
+a.wps-wpr-go-pro {
+    background: #05d5d8;
+    color: white;
+    font-weight: 700;
+    padding: 2px 5px;
+    border: 1px solid #05d5d8;
+    border-radius: 5px;
+}
+
+
+/*=====================================
+=            PREMIUM SECTION            =
+=====================================*/
+.ced_tutorlms_premium__wrapper {
+  margin: 0 auto;
+  max-width: 1270px;
+  width: 100%;
+
+}
+.ced_tutorlms_premium__container {
+  width: 100%;
+  
+}
+.ced_tutorlms_premium__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 0 40px 0;
+}
+.ced_tutorlms_premium__column {
+  border-bottom: 4px solid #ef5350;
+  box-shadow: -1px -5px 4px 2px rgba(0,0,0,.05);
+  box-shadow: 0 5px 20px rgba(0,0,0,.15);
+  color: #555d66;
+  flex: 0 0 80%;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 4% 0 0;
+  max-width: 48%;
+  padding: 10px 30px 10px 40px;
+  word-wrap: break-word;
+    border-radius: 4px;
+}
+.ced_tutorlms_premium__column:nth-child(2n) {
+  margin-right: 0;
+}
+.ced_tutorlms_premium__content {
+    width: 100%;
+}
+
+.ced_tutorlms_premium_upgrade {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+.ced_tutorlms_premium_upgrade__wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ced_tutorlms_premium_upgrade_btn {
+    padding-left: 20px;
+}
+
+a.ced_tutorlms_premium--cta {
+    background: #ef5350;
+    border-radius: 50px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*=====================================
+=            MEDIA QUERIES            =
+=====================================*/
+
+@media only screen and (max-width: 767px) {
+  .ced_tutorlms_premium__column {
+    flex-direction: column;
+    flex:0 0 100%;
+    margin: 0 0 80px 0;
+    max-width: 100%;
+  }
+  .ced_tutorlms_premium__row {
+    margin: 0;
+  }
+
+}
+@media screen and (max-width: 782px){
+    input, textarea {
+    	width:100%;
+}
+}
+@media only screen and (max-width: 782px){
+    .ced_tutorlms_pr_navigator_template.open-btn {
+      display: block!important;
+  }
+}
+
+/*=====  End of MEDIA QUERIES  ======*/
+/*=====================================
+=            END OF PREMIUM SECTION    =
+=====================================*/
